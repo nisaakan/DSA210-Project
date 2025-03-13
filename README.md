@@ -17,7 +17,7 @@ This study focuses on analyzing the impact of daily technology usage, including 
 
 ---
 ## **Data Set and Processing**
-1) **Data Set**
+#### **1)Data Set**
 The dataset includes data points that track an individual's daily use of technology and mental health factors. The following items are included:
 
 - **User_ID**: A unique identifier for each participant.
