@@ -1,6 +1,6 @@
-# Term Project
+# DSA210-Project
 
-##**Project Proposal**
+## **Project Proposal**
 In this term project, I will analyze how daily technology use, including social media and screen time, affects mental health indicators like stress, sleep quality, and productivity. Using a dataset from Kaggle, the goal is to explore the link between digital habits and mental well-being, promoting healthier screen time management. Excessive screen time and frequent social media use are expected to increase stress and decrease sleep quality, reducing productivity. The analysis will help identify trends for further research and predictive modeling on technology’s impact on mental health.
 
 ---
