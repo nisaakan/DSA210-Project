@@ -7,9 +7,9 @@ In this term project, I will analyze how daily technology use, including social 
 ## **Motivation**
 With increasing technology use, particularly social media and screen time, understanding its impact on mental health is crucial. By analyzing the Kaggle dataset, I aim to:
 
--Explore how technology use affects stress, sleep, and productivity.
--Identify trends in mental well-being across usage patterns.
--Provide insights into how screen time management can improve mental health.
+- Explore how technology use affects stress, sleep, and productivity.
+- Identify trends in mental well-being across usage patterns.
+- Provide insights into how screen time management can improve mental health.
 
 ---
 ## **Focus of the Study**
