@@ -13,6 +13,7 @@ With increasing technology use, particularly social media and screen time, under
 
 ---
 ## **Focus of the Study**
+This study focuses on analyzing the impact of daily technology usage, including social media and screen time, on mental health indicators like stress, sleep quality, and productivity. The goal is to understand how digital habits influence well-being and identify trends that could help in managing screen time for improved mental health.
 
 ---
 ## **Data Collection and Processing**
@@ -20,5 +21,14 @@ With increasing technology use, particularly social media and screen time, under
 The dataset for this analysis was sourced from Kaggle and includes data on daily technology use, social media activity, and mental health indicators such as stress, sleep quality, and productivity.
 ---
 ## **Data Analysis**
+---
+## **Conclusion**
+By the end of this project, I hope to answer the following questions:
+
+- How does daily technology use affect stress, sleep, and productivity?
+- What patterns in technology usage are linked to mental health outcomes?
+- Can screen time management improve well-being and productivity?
+This project isn’t just about data analysis; it’s about using insights to promote healthier digital habits and better mental health.
+
 ---
 
