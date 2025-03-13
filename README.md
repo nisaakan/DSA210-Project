@@ -16,6 +16,8 @@ With increasing technology use, particularly social media and screen time, under
 
 ---
 ## **Data Collection and Processing**
+1) **Data Collection**
+The dataset for this analysis was sourced from Kaggle and includes data on daily technology use, social media activity, and mental health indicators such as stress, sleep quality, and productivity.
 ---
 ## **Data Analysis**
 ---
