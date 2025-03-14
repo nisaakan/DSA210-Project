@@ -33,21 +33,18 @@ The dataset includes data points that track an individual's daily use of technol
 ---
 ## **Data Analysis Plan**
 #### **1)Data Preprocessing**
-Data Import and Cleaning
+- Inconsistencies and outliers in the data will be cleaned.
+  
 #### **2)Exploratory Data Analysis (EDA)**
-
-
-The distributions of screen time, stress levels, sleep quality, and productivity will be analyzed.
-Key trends and patterns in these variables will be visualized.
+- The distributions of screen time, stress levels, sleep quality, and productivity will be analyzed.
+- Key trends and patterns in these variables will be visualized.
+  
 #### **3)Correlation Analysis**
-
-The relationships between screen time and stress, sleep quality, and productivity will be examined.
-Pearson or Spearman correlation coefficients will be calculated.
+- The relationships between screen time and stress, sleep quality, and productivity will be examined.
+- Pearson or Spearman correlation coefficients will be calculated.
+  
 #### **4)Visualization**
-
-Histograms/Boxplots: To visualize the distributions of variables.
-Scatter Plots: To show the relationships between screen time and mental health indicators.
-Heatmaps: To visualize correlations between variables.
+- Different types of graphics will be used.
 
 ---
 
@@ -60,9 +57,20 @@ In this project, I expect to find:
 - Insights into how reducing screen time might improve productivity and overall mental health.
 ---
 
-## **Limitations and Future Work**
+## **Limitations**
 
+**Screen Time Data**:The screen time data was taken from device tracking, but it might miss some screen usage (like certain apps or settings).
 
+**Sample Size**:Data was collected for just one month, so it's hard to make conclusions for longer periods.
+
+**Self-Reported Data**:Productivity was self-reported, which could be biased or inaccurate.
+
+## **Future Work**
+- Use automatic data collection for more accurate tracking of screen time, stress, sleep, and productivity over time.
+
+- Collect data over several months for better and more reliable results.
+
+- Look into other factors, like how different apps or activities (e.g., social media, gaming) affect mental health.
 ---
 
 ## **Conclusion**
