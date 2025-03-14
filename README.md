@@ -17,7 +17,11 @@ This study focuses on analyzing the impact of daily technology usage, including 
 
 ---
 ## **Data Set and Processing**
-#### **1)Data Set**
+#### **1)Data Source**
+
+The dataset used for this project was sourced from Kaggle. It contains data related to daily technology usage and mental health indicators, including self-reported scores for stress, sleep quality, and productivity. This data was collected through surveys and tracking apps that monitor screen time and mental health factors, allowing a comprehensive look at digital habits and well-being.
+
+#### **2)Data Set**
 The dataset includes data points that track an individual's daily use of technology and mental health factors. The following items are included:
 
 - **User_ID**: A unique identifier for each participant.
@@ -28,7 +32,20 @@ The dataset includes data points that track an individual's daily use of technol
 - **Sleep_Quality (1-10)**: Self-reported sleep quality score.
 ---
 ## **Data Analysis**
+
+
 ---
+
+## **Findings**
+
+
+---
+
+## **Limitations and Future Work**
+
+
+---
+
 ## **Conclusion**
 By the end of this project, I hope to answer the following questions:
 
