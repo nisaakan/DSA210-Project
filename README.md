@@ -31,14 +31,33 @@ The dataset includes data points that track an individual's daily use of technol
 - **Stress_Level (1-10)**: Self-reported stress level, where 1 is very low, and 10 is very high.
 - **Sleep_Quality (1-10)**: Self-reported sleep quality score.
 ---
-## **Data Analysis**
+## **Data Analysis Plan**
+#### **1)Data Preprocessing**
+Data Import and Cleaning
+#### **2)Exploratory Data Analysis (EDA)**
 
+
+The distributions of screen time, stress levels, sleep quality, and productivity will be analyzed.
+Key trends and patterns in these variables will be visualized.
+#### **3)Correlation Analysis**
+
+The relationships between screen time and stress, sleep quality, and productivity will be examined.
+Pearson or Spearman correlation coefficients will be calculated.
+#### **4)Visualization**
+
+Histograms/Boxplots: To visualize the distributions of variables.
+Scatter Plots: To show the relationships between screen time and mental health indicators.
+Heatmaps: To visualize correlations between variables.
 
 ---
 
 ## **Findings**
+In this project, I expect to find:
 
-
+- A correlation between high screen time and increased stress levels, as well as lower sleep quality.
+- Possible negative effects of excessive social media use on productivity.
+- Key trends linking specific usage patterns to mental well-being, helping to identify optimal screen time management strategies.
+- Insights into how reducing screen time might improve productivity and overall mental health.
 ---
 
 ## **Limitations and Future Work**
