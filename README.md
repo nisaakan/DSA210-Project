@@ -29,7 +29,10 @@ The dataset includes data points that track an individual's daily use of technol
 - **Mental_Health_Score (1-10)**: Self-reported mental health score, where 1 is poor, and 10 is excellent.
 - **Stress_Level (1-10)**: Self-reported stress level, where 1 is very low, and 10 is very high.
 - **Sleep_Quality (1-10)**: Self-reported sleep quality score.
+ #### **3)Data Preprocessing** 
+ - The data will be processed to resolve inconsistencies and eliminate outliers.
 ---
+
 ## **Data Analysis Plan**
 #### **1)Data Preprocessing**
 - Inconsistencies and outliers in the data will be cleaned.
