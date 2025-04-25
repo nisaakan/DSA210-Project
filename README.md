@@ -49,6 +49,15 @@ The dataset includes data points that track an individual's daily use of technol
 - Different types of graphics will be used.
 
 ---
+## **Hypotheses**
+
+#### **1)Null Hypothesis (H₀):**
+There is no significant relationship between screen time and stress or sleep duration.
+
+#### **2)Alternative Hypothesis (H₁):**
+Screen time significantly impacts stress levels and sleep quality.
+
+---
 
 ## **Findings**
 In this project, I expect to find:
@@ -57,6 +66,29 @@ In this project, I expect to find:
 - Possible negative effects of excessive social media use on productivity.
 - Key trends linking specific usage patterns to mental well-being, helping to identify optimal screen time management strategies.
 - Insights into how reducing screen time might improve productivity and overall mental health.
+
+#### **1)Univariate Insights:**
+
+- Most users report 2–6 hours of daily technology use.
+- Average sleep is ~6.3 hours.
+- Majority of stress levels are in the "Medium" category.
+
+#### **2)Correlation & Regression:**
+
+- Weak or no statistically significant correlation between screen time and sleep (r ≈ -0.01, p > 0.05).
+- OLS Regression showed no predictive power (R² ≈ 0.00, p = 0.26).
+
+#### **3)Group Analysis:**
+
+- Medium stress level users had highest average tech use.
+- Low stress associated with higher physical activity.
+  
+#### **4)Machine Learning:**
+
+- Model	MSE	R² Score
+- Linear Regression	2.11	Very Low
+- ML models confirmed screen time is a weak predictor of sleep duration.
+- Confusion matrix showed moderate classification accuracy for central sleep ranges (4–6 hrs).
 ---
 
 ## **Limitations**
@@ -83,5 +115,7 @@ By the end of this project, I hope to answer the following questions:
 - Can screen time management improve well-being and productivity?
 This project isn’t just about data analysis; it’s about using insights to promote healthier digital habits and better mental health.
 
+- We fail to reject the null hypothesis as the p-values are > 0.05. There is no statistically significant relationship between screen time and sleep duration. However, trends show that excessive screen time and low physical activity may be linked to higher stress levels.
+- This study supports the idea that healthy tech habits and physical activity play a role in mental health, but further analysis with more granular data is needed.
 ---
 
