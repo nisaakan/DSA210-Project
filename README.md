@@ -89,6 +89,11 @@ In this project, I expect to find:
 - Linear Regression	2.11	Very Low
 - ML models confirmed screen time is a weak predictor of sleep duration.
 - Confusion matrix showed moderate classification accuracy for central sleep ranges (4–6 hrs).
+  
+  |**Model**                |**Mean Squared Error(MSE)**   	|**R^2**      |
+  |-------------------------|-----------------------------------|-------------|
+  |Linear Regression        | 2.11			| Very Low       |
+
 ---
 
 ## **Limitations**
@@ -108,14 +113,8 @@ In this project, I expect to find:
 ---
 
 ## **Conclusion**
-By the end of this project, I hope to answer the following questions:
-
-- How does daily technology use affect stress, sleep, and productivity?
-- What patterns in technology usage are linked to mental health outcomes?
-- Can screen time management improve well-being and productivity?
-This project isn’t just about data analysis; it’s about using insights to promote healthier digital habits and better mental health.
-
-- We fail to reject the null hypothesis as the p-values are > 0.05. There is no statistically significant relationship between screen time and sleep duration. However, trends show that excessive screen time and low physical activity may be linked to higher stress levels.
-- This study supports the idea that healthy tech habits and physical activity play a role in mental health, but further analysis with more granular data is needed.
+- We fail to reject the null hypothesis as the p-values are > 0.05. There is no statistically significant relationship between screen time and sleep duration. However, exploratory trends suggest that users with medium stress use more technology, and lower stress is associated with higher physical activity.
+- This project highlights the importance of monitoring and managing screen time as part of a broader wellness strategy.
+- Further data collection and refined feature engineering can help uncover deeper insights into how digital habits influence mental health.
 ---
 
