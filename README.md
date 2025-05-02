@@ -34,19 +34,37 @@ The dataset includes data points that track an individual's daily use of technol
 ---
 
 ## **Data Analysis Plan**
-#### **1)Data Preprocessing**
+#### **Data Preprocessing**
 - Inconsistencies and outliers in the data will be cleaned.
   
-#### **2)Exploratory Data Analysis (EDA)**
+#### **Exploratory Data Analysis (EDA)**
 - The distributions of screen time, stress levels, sleep quality, and productivity will be analyzed.
 - Key trends and patterns in these variables will be visualized.
   
-#### **3)Correlation Analysis**
+#### **Correlation Analysis**
 - The relationships between screen time and stress, sleep quality, and productivity will be examined.
 - Pearson or Spearman correlation coefficients will be calculated.
   
-#### **4)Visualization**
-- Different types of graphics will be used.
+#### **Univariate Analysis**
+- Explore frequency and distribution of each variable (e.g., histograms).
+
+#### **Bivariate Analysis**
+
+- Scatter plots and boxplots to identify relationships between two variables.
+
+#### **Multivariate Analysis**
+
+- Heatmap of correlations among variables.
+
+#### **Regression Modeling**
+
+- Apply regression to predict sleep hours based on screen time.
+
+#### **Machine Learning Evaluation**
+
+- Evaluate model performance using MSE and R².
+
+- Use confusion matrix for sleep range predictions.
 
 ---
 ## **Hypotheses**
@@ -66,6 +84,8 @@ In this project, I expect to find:
 - Possible negative effects of excessive social media use on productivity.
 - Key trends linking specific usage patterns to mental well-being, helping to identify optimal screen time management strategies.
 - Insights into how reducing screen time might improve productivity and overall mental health.
+
+## **Analysis Results**
 
 #### **1)Univariate Insights:**
 
