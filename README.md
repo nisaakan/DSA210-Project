@@ -25,14 +25,29 @@ The dataset includes data points that track an individual's daily use of technol
 
 - **User_ID**: A unique identifier for each participant.
 - **Age**: The age of the participant.
-- **Daily_Screen_Time (hours)** : Average daily screen time in hours.
-- **Mental_Health_Score (1-10)**: Self-reported mental health score, where 1 is poor, and 10 is excellent.
-- **Stress_Level (1-10)**: Self-reported stress level, where 1 is very low, and 10 is very high.
-- **Sleep_Quality (1-10)**: Self-reported sleep quality score.
+- **Screen_Time_Hours**: Total average screen usage in hours.
+- **Mental_Health_Status**: Categorical rating (Excellent, Good, Fair, Poor).
+- **Stress_Level**: Categorical (Low, Medium, High).
+- **Sleep_Hours**: Average sleep duration in hours.
+  
  #### **3)Data Preprocessing** 
  - The data will be processed to resolve inconsistencies and eliminate outliers.
 ---
+## **Task Definition**
 
+- “Predict High_Stress (Stress_Level == 'High') using screen time and other behavioral features.”
+
+- We frame this as a binary classification problem using decision trees, random forests, and linear models to explore mental strain predictors.
+
+---
+## **Feature Engineering**
+
+- **ScreenTime_Level**: Categorical bucket for screen time (Low < 2h, Medium 2–6h, High > 6h)
+- **High_Stress**: Binary flag (1 if Stress_Level == High, else 0)
+- **ScreenTime_to_Sleep**: Ratio of screen time to sleep hours
+
+---
+  
 ## **Data Analysis Plan**
 #### **Data Preprocessing**
 - Inconsistencies and outliers in the data will be cleaned.
@@ -90,7 +105,7 @@ In this project, I expect to find:
 #### **1)Univariate Insights:**
 
 - Most users report 2–6 hours of daily technology use.
-- Average sleep is ~6.3 hours.
+- Average sleep is ~6.5 hours.
 - Majority of stress levels are in the "Medium" category.
 
 #### **2)Correlation & Regression:**
@@ -110,11 +125,14 @@ In this project, I expect to find:
 - ML models confirmed screen time is a weak predictor of sleep duration.
 - Confusion matrix showed moderate classification accuracy for central sleep ranges (4–6 hrs).
 
+
  | **Model**         |**R^2**   | **Mean Squared Error(MSE)**  |
  |-------------------|----------|--------------------|
  | Linear Regression | 0.61     | Low                |
  | Random Forest     | 0.58     | Medium             |
  | Decision Tree     | 0.41     | Higher             |
+
+- Machine learning models confirmed that screen time alone is a weak predictor of sleep or stress, suggesting that more complex or multi-dimensional features may be necessary for accurate mental health prediction.
 
 ---
 
