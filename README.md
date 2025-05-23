@@ -45,6 +45,7 @@ The dataset includes data points that track an individual's daily use of technol
 - **ScreenTime_Level**: Categorical bucket for screen time (Low < 2h, Medium 2–6h, High > 6h)
 - **High_Stress**: Binary flag (1 if Stress_Level == High, else 0)
 - **ScreenTime_to_Sleep**: Ratio of screen time to sleep hours
+- **Encoded Variables**: Converted categorical variables such as Gender, Support Access, Mental Health Status into dummy variables for ML models.
 
 ---
   
