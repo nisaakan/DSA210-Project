@@ -106,13 +106,15 @@ In this project, I expect to find:
 #### **4)Machine Learning:**
 
 - Model	MSE	R² Score
-- Linear Regression	2.11	Very Low
+- Linear Regression	0.61 Low
 - ML models confirmed screen time is a weak predictor of sleep duration.
 - Confusion matrix showed moderate classification accuracy for central sleep ranges (4–6 hrs).
-  
-  |**Model**                |**Mean Squared Error(MSE)**   	|**R^2**      |
-  |-------------------------|-----------------------------------|-------------|
-  |Linear Regression        | 2.11			| Very Low       |
+
+ | **Model**         |**R^2**   | **Mean Squared Error(MSE)**  |
+ |-------------------|----------|--------------------|
+ | Linear Regression | 0.61     | Low                |
+ | Random Forest     | 0.58     | Medium             |
+ | Decision Tree     | 0.41     | Higher             |
 
 ---
 
