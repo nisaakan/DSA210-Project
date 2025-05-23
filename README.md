@@ -20,15 +20,15 @@ With increasing technology use, particularly social media and screen time, under
 
 ---
 ## **Task Definition**
-- This project is framed as a supervised machine learning task:
+This project is framed as a supervised machine learning task:
 - **“Predict High_Stress (Stress_Level == 'High') using screen time and related behavioral features.”**
 - This binary classification task is addressed using tree-based ML models, and regression models are used to analyze relationships with sleep duration.
 ---
 
 ## **Data Set and Processing**
 #### **1)Data Source**
+The dataset used for this project was sourced from Kaggle.
 
--The dataset used for this project was sourced from Kaggle. 
 - It contains data related to daily technology usage and mental health indicators, including self-reported scores for stress, sleep quality, and mental health.
 - The data was collected through surveys and tracking apps that monitor screen time and mental health factors, allowing a comprehensive look at digital habits and well-being.
 
@@ -43,7 +43,8 @@ The dataset includes data points that track an individual's daily use of technol
 - **Sleep_Hours**: Average sleep duration in hours.
   
  #### **3)Data Preprocessing** 
- - The data will be processed to resolve inconsistencies and eliminate outliers.
+ The data will be processed to resolve inconsistencies and eliminate outliers.
+ 
 ---
 
 ## **Feature Engineering**
@@ -92,10 +93,9 @@ The dataset includes data points that track an individual's daily use of technol
 ## **Hypothesis**
 
 #### **1)Null Hypothesis (H₀):**
-There is no significant relationship between screen time and stress or sleep duration.
-
+- There is no correlation between screen time sleep hours.
 #### **2)Alternative Hypothesis (H₁):**
-Screen time significantly impacts stress levels and sleep quality.
+- There is a correlation between screen time and sleep hours.
 
 ---
 
