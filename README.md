@@ -137,11 +137,12 @@ In this project, I expect to find:
 
  | **Model**         |**R^2**   | **Mean Squared Error(MSE)**  |
  |-------------------|----------|--------------------|
- | Linear Regression | 0.61     | Low                |
- | Random Forest     | 0.58     | Medium             |
- | Decision Tree     | 0.41     | Higher             |
+ | Linear Regression | -0.00     | Low                |
+ | Random Forest     | -0.03     | Medium        |
+ | Decision Tree     | -0.90     | Higher             |
 
-- Linear Regression performed best with an R² of 0.61, making it the most suitable model for this limited dataset.
+- Best Model: Linear Regression (R² = -0.00)
+- Linear Regression performed best with an R² of 0.00, making it the most suitable model for this limited dataset.
 ---
 
 ## **Limitations**
