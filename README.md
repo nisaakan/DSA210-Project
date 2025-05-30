@@ -182,7 +182,6 @@ The dataset includes data points that track an individual's daily use of technol
  | Random Forest     | -0.03     | Lower        |
  | Decision Tree     | -0.90     | Higher             |
 
-- Best Model: Random Forest slightly outperformed Decision Tree based on R² score, though both showed limited predictive power.
 ---
 
 ## **Findings**
