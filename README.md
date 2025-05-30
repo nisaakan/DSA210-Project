@@ -90,22 +90,46 @@ The dataset includes data points that track an individual's daily use of technol
 - Use confusion matrix for sleep range predictions.
 
 ---
-## **Hypothesis**
 
+## **Final Report Of The Project**
+
+## **Introduction**
+- This project investigates the relationship between technology usage and mental well-being.
+- The core objective is to determine whether variables such as screen time, gaming hours, and social media usage significantly affect stress levels and sleep quality. By applying statistical and machine learning techniques, this study attempts to model and predict stress and sleep outcomes from digital usage behavior.
+
+## **Hypothesis**
 #### **1)Null Hypothesis (H₀):**
 - There is no correlation between screen time sleep hours.
 #### **2)Alternative Hypothesis (H₁):**
 - There is a correlation between screen time and sleep hours.
+  
+## **Methods**
 
----
+#### **Dataset and Collection**
+- Data sourced from Kaggle: “Mental Health and Technology Usage 2024”
+- Includes features like screen time, sleep duration, physical activity, technology usage, and stress level.
 
-## **Findings**
-In this project, I expect to find:
+#### **Data Processing**
 
-- A correlation between high screen time and increased stress levels, as well as lower sleep quality.
-- Possible negative effects of excessive social media use on productivity.
-- Key trends linking specific usage patterns to mental well-being, helping to identify optimal screen time management strategies.
-- Insights into how reducing screen time might improve productivity and overall mental health.
+- Cleaned and standardized numeric values.
+- Outliers handled via IQR method.
+- Missing values filled using mean (numerical) or mode (categorical).
+- Feature engineering added variables like ScreenTime_to_Sleep, High_Stress, and Avg_Tech_Screen.
+- One-hot encoding applied to categorical features.
+
+#### **Exploratory Data Analysis(EDA)**
+
+- Users reported an average of ~6.5 hours of sleep and 2–6 hours of screen time.
+- Most stress levels were in the "Medium" category.
+- Higher screen time and lower physical activity were associated with higher stress.
+
+#### **Statistical Tests**
+
+- Pearson correlation between screen time and sleep: r ≈ -0.01, p > 0.05 → No significant relationship.
+- Pearson correlation between screen time and stress level: r ≈ +0.12, p < 0.05 → Weak but significant positive correlation.
+- OLS Regression showed screen time alone has no predictive power for sleep (R² ≈ 0.00, p = 0.26).
+
+#### **Visualization**
 
 ## **Analysis Results**
 
@@ -141,6 +165,9 @@ In this project, I expect to find:
  | Decision Tree     | -0.90     | Higher             |
 
 ---
+
+## **Findings**
+
 
 ## **Limitations**
 
