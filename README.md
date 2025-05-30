@@ -129,7 +129,25 @@ The dataset includes data points that track an individual's daily use of technol
 - Pearson correlation between screen time and stress level: r ≈ +0.12, p < 0.05 → Weak but significant positive correlation.
 - OLS Regression showed screen time alone has no predictive power for sleep (R² ≈ 0.00, p = 0.26).
 
-#### **Visualization**
+#### **Visualization Tools**
+
+#### 1)Univariate Analysis:
+- Screen Time: A histogram shows most users fall within the 2–6 hours daily range, indicating moderate usage patterns.
+- Stress Level: Count plots reveal that "Medium" is the most reported stress level.
+- Mental Health Status: Majority of users reported their mental health as "Good" or "Fair".
+#### 2)Bivariate Analysis:
+- Screen Time by Stress Level: Boxplots suggest users with higher stress levels tend to have higher screen time.
+- Physical Activity by Stress Level: Lower physical activity is observed in users with higher stress.
+- Screen Time vs Sleep Hours: Scatter plots show no clear trend between screen time and sleep duration.
+- Stress Level vs Screen Time (Regression): Regression plot shows a weak positive relationship between screen time and stress level.
+#### 3)Multivariate Analysis:
+- Correlation Heatmap: Shows a weak positive correlation between screen time and stress, and a weak negative correlation with sleep.
+- Pairwise Relationships: Pairplots support weak associations between screen time and both stress and sleep duration.
+#### 4)Machine Learning Visualization:
+- Actual vs Predicted Stress: Scatterplots for decision tree and random forest models show spread predictions with moderate alignment.
+- Confusion Matrix: Shows moderate prediction performance for sleep duration ranges, with highest accuracy in 4–6 hour category.
+
+
 
 ## **Analysis Results**
 
@@ -164,9 +182,15 @@ The dataset includes data points that track an individual's daily use of technol
  | Random Forest     | -0.03     | Lower        |
  | Decision Tree     | -0.90     | Higher             |
 
+- Best Model: Random Forest slightly outperformed Decision Tree based on R² score, though both showed limited predictive power.
 ---
 
 ## **Findings**
+- Screen Time & Stress: Higher screen time is weakly associated with higher stress levels (r ≈ +0.12, p < 0.05).
+- Screen Time & Sleep: No significant linear relationship found (r ≈ -0.01, p > 0.05).
+- Physical Activity: Users with lower stress levels reported higher physical activity, reinforcing its mental health benefits.
+- Stress Group Analysis: Medium-stress users had the highest average technology use.
+- Model Insights: Tree-based models performed better than linear regression but still indicated that screen time alone is not a strong predictor of stress or sleep.
 
 
 ## **Limitations**
