@@ -182,6 +182,8 @@ The dataset includes data points that track an individual's daily use of technol
  | Random Forest     | -0.03     | Lower        |
  | Decision Tree     | -0.90     | Higher             |
 
+ - Best Model: Random Forest (R² = -0.03)
+
 ---
 
 ## **Findings**
