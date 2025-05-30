@@ -179,8 +179,8 @@ The dataset includes data points that track an individual's daily use of technol
 
  | **Model**         |**R^2**   | **Mean Squared Error(MSE)**  |
  |-------------------|----------|--------------------|
- | Random Forest     | -0.03     | Lower        |
- | Decision Tree     | -0.90     | Higher             |
+ | Random Forest     | -0.03     | 0.69       |
+ | Decision Tree     | -0.90     | 1.28            |
 
  - Best Model: Random Forest (R² = -0.03)
 
